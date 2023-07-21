@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Movies@Mariana Tek</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #movie-schedule {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .movie-card {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            max-width: 200px;
+            text-align: center;
+        }
+
+        .movie-poster {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .filter-section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .search-section {
+            text-align: center;
+        }
+
+        .movie-genre {
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .movie-rating {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Movies@Mariana Tek</h1>
+
+    <div class="filter-section">
+        <label for="genre-filter">Filter by Genre:</label>
+        <select id="genre-filter" multiple>
+            <!-- Add options dynamically with JavaScript -->
+            <!-- For example: <option>Action</option> -->
+        </select>
+    </div>
+
+    <div class="search-section">
+        <label for="title-search">Search by Title:</label>
+        <input type="text" id="title-search">
+    </div>
+
+    <div id="movie-schedule">
+        <!-- Add movie cards dynamically with JavaScript -->
+        <!-- For example:
+        <div class="movie-card">
+            <img class="movie-poster" src="poster_A.jpg" alt="Movie A">
+            <h2>Movie A</h2>
+            <p class="movie-genre">Action, Adventure</p>
+            <p class="movie-rating">PG-13</p>
+            <p>Year Release: 2021</p>
+            <p>Metacritic Rating: 75</p>
+            <p>Runtime: 2h 15m</p>
+        </div>
+        -->
+    </div>
+
+    <script>
+        // JavaScript code to handle filtering and searching will be added here
+        // You can use the DOM API to interact with the elements and implement the desired functionality
+    </script>
+</body>
+
+</html>
